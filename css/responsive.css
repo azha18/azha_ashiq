@@ -1,0 +1,823 @@
+/*
+ * Responsive css
+ */
+
+
+
+/*Rasulation 361px to 480px*/
+ @media screen and (max-width: 480px) {
+ 	
+ 	/*Global CSS*/
+	.border-top{
+		padding-top: 60px;
+	}
+	.border-top p{
+		font-size: 14px;
+		margin: 10px;
+	}
+	.border-top h2{
+		font-size: 30px;
+		margin: 0;
+	}
+	.border-top h2::after{
+		margin-top: 10px;
+	}
+
+	/*Header section*/
+	.header-top{
+		padding: 15px 30px;
+	}
+ 	.nev{
+ 		display: none;
+ 	}
+ 	.mobile-nev{
+		display: block;
+	}
+	.mobile-nev i{
+		cursor: pointer;
+	}
+	.mobile-nev-items{
+		margin-top: 35px;
+		margin-right: auto;
+		text-align: center;
+		padding: 0;
+	}
+	.mobile-nev-items li{
+		list-style: none;
+		padding-bottom: 20px;
+		font-size: 20px;
+
+	}
+	.mobile-nev-items li a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.side-mobile-nav{
+		background: #1c221c;
+	    width: 100%;
+	    height: 100vh;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    z-index: 111;
+	    padding-top: 57px;
+	    text-align: end;
+	    display: none;
+	}
+	.side-mobile-nav i{
+	    margin-right: 30px;
+	    font-size: 18px;
+	    cursor: pointer;
+	}
+	.res-menu-active{
+		display: block;
+	}
+	
+ 	.header-headline{
+ 		width: 100%;
+ 	}
+ 	.header-headline h2{
+ 		font-size: 30px;
+ 		padding-top: 0px;
+ 	}
+ 	.header-headline p{
+ 		font-size: 25px;
+ 	}
+ 	.header-social-icon{
+ 		display: flex;
+ 		bottom: 20%;
+    	right: 50%;
+    	transform: translate(50%, 0%);
+    	padding: 40px;
+ 	}
+ 	.header-social-icon a i{
+ 		font-size: 18px;
+ 	}
+
+ 	/*About section*/
+
+ 	.about-content{
+ 		flex-direction: column;
+ 		padding-bottom: 0px;
+ 	}
+ 	.about-profile-img{
+ 		margin-top: 20px;
+ 		height: 400px;
+ 		width: 100%;
+	    padding: 10px 35px;
+   	 	text-align: center;
+ 	}
+ 	.about-profile-img img{
+ 		width: 80%;
+   		height: 100%;
+ 	}
+ 	.about-profile-dtails{
+ 		padding: 25px;
+ 	}
+ 	.about-profile-dtails h2{
+ 		font-size: 20px;
+ 	}
+	.about-profile-dtails p{
+		font-size: 14px;
+	}
+	.about-profile-row{
+		flex-direction: column;
+	}
+	.about-sofial-contact{
+		flex-direction: column;
+		padding-top: 0px;
+	}
+	.about-sofial-contact a{
+		margin: 0px;
+	}
+	.about-sofial-contact ul::before{
+		display: none;
+	}
+	.about-sofial-contact ul{
+		padding: 0px;
+	}
+	.sofial-icon a.about-dwnld-cv{
+		margin-right: 0px;
+	}
+
+ 	/*Resume section*/
+
+ 	.resume-content-wrraper{
+ 		flex-direction: column;
+ 	}
+ 	.resume-item{
+	    padding: 23px 13px 23px 33px;
+	    margin-bottom: 15px;
+ 	}
+ 	.resume-item h2 {
+ 		font-size: 20px;
+ 	}
+ 	.resume-items h3{
+ 		font-size: 20px;
+ 		margin-bottom: 05px;
+ 	}
+ 	.resume-items span{
+ 		margin-bottom: 0px;
+ 		font-size: 15px;
+ 	}
+ 	.resume-items p{
+ 		font-size: 15px;
+ 		margin: 0px;
+ 	}
+
+ 	/*Portfolio section*/
+
+ 	.portfolio-wrraper{
+ 		padding: 25px;
+ 		padding-top: 0px;
+ 	}
+ 	.filet-btn{
+ 		margin-top: 15px;
+ 	}
+ 	.isotope-item{
+ 		margin-top: 40px;
+ 	}
+
+ 	/*My Blog*/
+
+ 	.blog-item{
+ 		width: 100%;
+ 		padding-top: 20px;
+ 		margin-bottom: 0px;
+ 	}
+
+ 	.blog-items{
+ 		width: 100%;
+ 		margin-bottom: 10px;
+ 	}
+ 	.blog-item h3{
+ 		font-size: 23px;
+ 		text-align: center;
+ 	}
+ 	.blog-item p{
+ 		text-align: center;
+ 		font-size: 16px;
+ 	}
+
+
+   /*Get in touch section*/
+
+
+	.contact-me-wrrapper{
+		padding: 25px;
+		padding-top: 0px;
+	}
+	.contact-me-content{
+		flex-direction: column;
+	}
+	.contact-me-massage{
+		width: 100%;
+		text-align: center;
+	}
+	.contact-me-massage h2{
+		font-size: 20px;
+		text-align: left;
+	}
+	.contact-me-massage input{
+		width: 100% !important;
+	}
+	.wright-massage{
+		width: 100%;
+	}
+	.contact-me-info{
+		width: 100%;
+		margin-top: 20px;
+	}
+ 	.contact-me-info h2{
+ 		font-size: 20px;
+ 	}
+ 	.contact-me-info p{
+ 		font-size: 14px;
+ 	}
+ 	.contact-info-items h6{
+ 		font-size: 16px;
+ 	}
+ 	.contact-info-items span{
+		font-size: 14px;
+	}
+	.contact-info{
+		padding-left: 20px !important;
+	}
+
+	/*Footer section*/
+
+	.sofial-icon a i{
+		padding: 0px 10px;
+		font-size: 20px;
+	}
+
+ }
+
+
+/* Rasulation 481px to 768px */
+
+ @media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+	/*Global CSS*/
+
+	.border-top{
+		padding-top: 85px;
+	}
+	.border-top p{
+		font-size: 14px;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+	.border-top h2{
+		font-size: 35px;
+		margin: 0;
+	}
+	.border-top h2::after{
+		margin-top: 10px;
+	}
+	.sofial-icon a i{
+		padding: 0px 04px;
+		font-size: 18px;
+	}
+
+	/*Header section*/
+
+	.nev{
+ 		display: none;
+ 	}
+ 	.mobile-nev{
+		display: block;
+	}
+	.mobile-nev i{
+		cursor: pointer;
+	}
+	.mobile-nev-items{
+		margin-top: 60px;
+		margin-right: auto;
+		text-align: center;
+		padding: 0;
+	}
+	.mobile-nev-items li{
+		list-style: none;
+		padding-bottom: 10px;
+		font-size: 20px;
+
+	}
+	.mobile-nev-items li a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.side-mobile-nav{
+		background: #1c221c;
+	    width: 100%;
+	    height: 100vh;
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    z-index: 111;
+	    padding-top: 20px;
+	    text-align: end;
+	    display: none;
+	}
+	.side-mobile-nav i{
+	    margin-right: 30px;
+	    font-size: 18px;
+	    cursor: pointer;
+	}
+	.res-menu-active{
+		display: block;
+	}
+ 	.header-headline{
+ 		width: 100%;
+ 	}
+ 	.header-headline h2{
+ 		font-size: 35px;
+ 		padding-top: 0px;
+ 	}
+ 	.header-headline p{
+ 		font-size: 28px;
+ 	}
+ 	.header-social-icon{
+ 		display: flex;
+ 		bottom: 30%;
+    	right: 50%;
+    	transform: translate(50%, 0%);
+    	padding: 35px;
+ 	}
+ 	.header-social-icon a{
+		color: #fff;
+		font-size: 18px;
+		border: 1px solid #05c46b;
+	    border-radius: 50%;
+	    height: 40px;
+	    width: 40px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    text-decoration: none;
+	    margin: 2px;
+	    transition: .4s;
+ 	}
+
+ 	/*About section*/
+
+ 	.about-content{
+ 		flex-direction: column;
+ 		padding-bottom: 0px;
+ 		padding: 20px;
+ 	}
+ 	.about-profile-img{
+ 		height: 400px;
+ 		width: 80%;
+	    padding: 10px 35px;
+   	 	margin: 0 auto;
+   	 	text-align: center;
+ 	}
+ 	.about-profile-img img{
+ 		width: auto;
+   		height: 100%;
+ 	}
+ 	.about-profile-dtails{
+ 		padding: 25px;
+ 	}
+ 	.about-profile-dtails h2{
+ 		font-size: 25px;
+ 	}
+	.about-profile-dtails p{
+		font-size: 16px;
+	}
+	.about-profile-row{
+		flex-direction: column;
+	}
+	.about-sofial-contact{
+		flex-direction: column;
+		padding-top: 15px;
+	}
+	.about-sofial-contact a{
+		margin: 0;
+	}
+	.about-sofial-contact ul::before{
+		display: none;
+	}
+	.about-sofial-contact ul{
+		padding: 0px;
+	}
+	.about-profile-info span{
+		font-size: 18px;
+	}
+	.about-profile-info p{
+		font-size: 16px;
+		margin: 5px;
+	}
+	.about-dwnld-cv{
+		margin-bottom: 10px !important;
+	}
+	.sofial-icon a.about-dwnld-cv{
+		margin-right: 0px;
+	}
+ 	/*Resume section*/
+
+ 	.resume-content-wrraper{
+ 		flex-direction: column;
+ 	}
+ 	.resume-item{
+	    padding: 60px 50px;
+	    margin-bottom: 15px;
+ 	}
+ 	.resume-item h2 {
+ 		font-size: 25px;
+ 	}
+ 	.resume-items h2 {
+ 		font-size: 28;
+ 	}
+ 	.resume-items h3{
+ 		font-size: 27px;
+ 		margin-top: 12px;
+ 	}
+ 	.resume-items span{
+ 		margin-bottom: 0px;
+ 		font-size: 20px;
+ 	}
+ 	.resume-items p{
+ 		font-size: 20px;
+ 	}
+
+ 	/*Portfolio section*/
+
+ 	.portfolio-wrraper{
+ 		padding: 25px;
+ 		padding-top: 0px;
+ 	}
+ 	.filet-btn{
+ 		margin-top: 50px;
+ 	}
+ 	.filet-btn button{
+ 		font-size: 17px;
+ 	}
+
+ 	/*My Blog*/
+
+ 	.blog-item{
+ 		padding-top: 20px;
+ 	}
+
+ 	.blog-items{
+ 		width: 100%;
+ 		margin-bottom: 10px;
+ 	}
+ 	.blog-items h3{
+ 		font-size: 25px;
+ 	}
+ 	.blog-items p{
+ 		font-size: 16px;
+ 	}
+
+
+   /*Get in touch section*/
+
+
+	.contact-me-wrrapper{
+		padding: 25px;
+		padding-top: 0px;
+	}
+	.contact-me-content{
+		flex-direction: column;
+	}
+	.contact-me-massage{
+		width: 100%;
+		text-align: center;
+	}
+	.contact-me-massage h2{
+		font-size: 25px;
+		text-align: left;
+	}
+	.contact-me-massage input{
+		width: 100% !important;
+	}
+	.wright-massage{
+		width: 100%;
+	}
+	.contact-me-info{
+		margin-top: 20px;
+	}
+ 	.contact-me-info h2{
+ 		font-size: 25px;
+ 		margin-top: 40px;
+ 	}
+ 	.contact-me-info p{
+ 		font-size: 16px;
+ 	}
+
+ 	.contact-info-items h6{
+ 		font-size: 20px;
+ 	}
+ 	.contact-info-items span{
+		font-size: 16px;
+	}
+	.contact-info{
+		padding-left: 20px;
+	}
+	.contact-me-massage-btn{
+		font-size: 18px;
+	}
+
+
+ }
+
+
+
+
+ /* Rasulation 769px to 960px */
+
+ @media screen and (min-width: 769px) and (max-width: 960px) {
+
+
+	/*Global CSS*/
+
+	.border-top{
+		padding-bottom: 20px;
+	}
+	.border-top p{
+		font-size: 25px;
+		margin: 0;
+		padding-bottom: 15px;
+	}
+	.border-top h2{
+		font-size: 40px;
+		margin: 0;
+	}
+	.border-top h2::after{
+		margin-top: 20px;
+	}
+	.border-top h2::after {
+	    content: "";
+	    width: 110px;
+	    height: 10px;
+	    background: #05c46b;
+	    display: block;
+	    position: absolute;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	}
+	
+
+	/*Header section*/
+
+	.nev{
+ 		display: none;
+ 	}
+ 	.header-headline{
+ 		width: 100%;
+ 	}
+ 	.header-headline h2{
+ 		font-size: 50px;
+ 		padding-top: 0px;
+ 		padding-bottom: 15px;
+ 	}
+ 	.header-headline p{
+ 		font-size: 35px;
+ 	}
+ 	.header-social-icon{
+ 		display: flex;
+ 		bottom: 30%;
+    	right: 50%;
+    	transform: translate(50%, 0%);
+    	padding: 0px;
+ 	}
+ 	.header-social-icon a i{
+ 		font-size: 30px;
+ 		padding: 0px 10px !important;
+ 	}
+ 	.header-social-icon a{
+	    font-size: 23px;
+	    list-style: none;
+	    border: 1px solid #05c46b;
+	    margin: 2px;
+	    border-radius: 50%;
+	    height: 50px;
+	    width: 50px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    text-decoration: none;
+	    transition: .4s;
+	    margin: 5px;
+	}
+
+ 	/*About section*/
+	
+	.about-content{
+		padding-bottom: 0px;
+	}
+	.about-wrraper{
+		padding: 20px;
+	}
+ 	
+ 	.about-profile-img{
+	   display: none;
+ 	}
+ 	.about-profile-img img{
+ 		
+ 	}
+ 	.about-profile-dtails{
+ 		width: 100%;
+ 		padding-right: 0px;
+ 	}
+ 	.about-profile-dtails h2{
+ 		font-size: 32px;
+ 		text-align: center;
+ 	}
+	.about-profile-dtails p{
+		font-size: 20px;
+		text-align: center;
+		line-height: 1.9;
+		letter-spacing: 2px;
+	}
+	
+	.about-sofial-contact{
+		flex-direction: column;
+	}
+	.about-sofial-contact a{
+		margin: 0;
+	}
+	.about-sofial-contact ul::before{
+		display: none;
+	}
+	.about-sofial-contact ul{
+		padding: 0px;
+	}
+	.about-profile-info span{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.about-profile-info p{
+		font-size: 25px;
+		margin-bottom: 25px;
+	}
+	.about-profile-info p a{
+		font-size: 25px;
+		margin: 5px;
+	}
+	.about-dwnld-cv{
+		margin-bottom: 20px !important;
+		font-size: 25px;
+	}
+	.about-profile-row{
+		flex-direction: column;
+	}
+	.sofial-icon a.about-dwnld-cv {
+	    text-decoration: none;
+	    color: #fff;
+	    padding: 20px 45px;
+	    background: #05c46b;
+	    border-radius: 50px;
+	    border: 1px solid #05c46b;
+	    font-size: 22px;
+	    margin: 0;
+	    transition: .4s;
+	}
+	.about-sofial-icon a {
+	    font-size: 23px;
+	    list-style: none;
+	    border: 1px solid #05c46b;
+	    margin: 2px;
+	    border-radius: 50%;
+	    height: 50px;
+	    width: 50px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    text-decoration: none;
+	    transition: .4s;
+	    margin: 5px;
+	}
+
+ 	/*Resume section*/
+	
+	.resume-item{
+		height: 400px;
+	}
+	.resume-items h2 {
+	    font-size: 30px;
+	    margin-bottom: 20px;
+	}
+	.resume-item h3 {
+	    line-height: 100%;
+	    margin-bottom: 13px;
+	    font-size: 25px;
+	    font-weight: 600;
+	    margin-top: 5px;
+	}
+	.item-arrow{
+		top: 10%;
+	}
+	.resume-item span{
+		font-size: 23px;
+	}
+	.resume-item p {
+		font-size: 21px;
+		line-height: 1.5;
+	}
+ 	
+
+ 	/*Portfolio section*/
+
+ 	.button-group .button{
+ 		font-size: 25px;
+ 	}
+
+
+ 	/*My Blog*/
+
+ 	.blog-item h3 {
+ 		font-size: 25px;
+	}
+	.blog-item p{
+		font-size: 20px;
+		letter-spacing: .5px;
+	}
+
+
+   /*Get in touch section*/
+
+	.contact-me-content{
+		width: 100%;
+	    padding-top: 50px;
+	    flex-direction: column;
+	}
+	
+	.contact-me-massage{
+		width: 100%;
+	}
+	.contact-me-massage h2{
+		font-size: 30px;
+	}
+	.contact-me-massage input{
+		height: 60px;
+		font-size: 25px;
+	}
+	.wright-massage{
+		font-size: 25px;
+	}
+	.contact-me-massage input[type="submit"] {
+		font-size: 25px;
+		border-radius: 45px;
+	}
+	.contact-me-info{
+		width: 100%;
+		padding-top: 35px;
+	}
+	.contact-me-info h2{
+		font-size: 30px;
+	}
+	.contact-me-info p{
+		font-size: 20px;
+	    line-height: 1.9;
+	    letter-spacing: 1px;
+	}
+	.contact-me-info li{
+		font-size: 25px;
+	}
+	.contact-me-info h6{
+		font-size: 25px;
+		margin-bottom: 10px;
+	}
+	.contact-me-info span{
+		font-size: 25px;
+	}
+
+	/*Footer section*/
+
+	.footer-wrrapper p{
+		font-size: 21px !important;
+		margin: 0;
+		color: #f0f0f0;
+	}
+	.footer-wrrapper h6{
+		font-size: 20px;
+	}
+	.footer-wrrapper{
+		margin-top: 20px;
+	}
+	.sofial-icon a i{
+		padding: 0px 04px;
+		font-size: 25px;
+	}
+	.footer-sofial-contact a {
+	    font-size: 23px;
+	    list-style: none;
+	    border: 1px solid #05c46b;
+	    margin: 2px;
+	    border-radius: 50%;
+	    height: 50px;
+	    width: 50px;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    text-decoration: none;
+	    transition: .4s;
+	    margin: 5px;
+	}
+
+ }
